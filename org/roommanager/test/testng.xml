@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite">
+   <test name="Verify a Resource is created">
+    <classes>
+      <class name="org.roommanager.test.CreateResource" />   
+    </classes>
+  </test>
+  <test name="Verify a Room is set as Out-Of-Order">
+    <classes>
+      <class name="org.roommanager.test.CreateOutOfOrder" />   
+    </classes>
+  </test>
+  <test name="Verify can be searched by its Name">
+    <classes>
+      <class name="org.roommanager.test.SearchASpecificRoom" />   
+    </classes>
+  </test>
+</suite>    
