@@ -3,13 +3,9 @@ package org.roommanager.test;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import java.util.concurrent.TimeUnit;
-
 import org.junit.*;
-
 import static org.junit.Assert.*;
-
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
